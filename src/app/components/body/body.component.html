@@ -1,14 +1,44 @@
-<div class="container">
-    <h1>Tes test</h1>
 
-    <div class="row">
-        <div class="col-md-12">
-            <model-viewer 
-                src="assets/Astronaut.glb" 
-                alt="A 3D model of an astronaut" 
-                auto-rotate camera-controls>
-            </model-viewer>
+<h1>Testing Server</h1>
+
+<div class="row">
+    <div class="col">
+        <h1>*ngIf</h1>
+        <hr>
+
+        <div class="card text-white bg-primary mb-3 w-100">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">{{ sentence.autor }}</h5>
+              <p class="card-text">{{ sentence.message }}</p>
+            </div>
         </div>
+
+        <button class="btn btn-outline-primary btn-block">Mostrar / Ocultar</button>
     </div>
-    
+
+    <div class="col">
+        <h1>*ngFor</h1>
+        <hr>
+        
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </div>
 </div>
+
+<div class="row">
+    <div class="col-12">
+        <model-viewer 
+            src="assets/Astronaut.glb" 
+            alt="A 3D model of an astronaut" 
+            auto-rotate camera-controls ar>
+        </model-viewer>
+    </div>
+</div>
+
+
