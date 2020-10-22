@@ -15,6 +15,4 @@ export class BodyComponent {
     }
 
     persons: string[] = ['Wonder Woman', 'Scarllet', 'Wannda'];
-
-
 }
