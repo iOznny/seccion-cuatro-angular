@@ -14,5 +14,5 @@ export class BodyComponent {
         autor: 'Ben Parker'
     }
 
-    persons: string[] = ['Wonder Woman', 'Scarllet', 'Wannda'];
+    persons: string[] = ['Gal Gadot', 'Scarlett Johansson', 'Elizabeth Olsen'];
 }
